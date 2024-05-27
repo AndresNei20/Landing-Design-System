@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    max-width: 100%;
+    gap: 20%;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #181b2a;
+    color: white;
+  }
+  
+  .logoimg{
+    width: 50%;
+
+  }
+
+  .logo {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    
+  }
+  
+  nav li {
+    padding-left: 8%;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }

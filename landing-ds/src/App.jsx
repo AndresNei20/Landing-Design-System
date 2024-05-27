@@ -1,16 +1,24 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from 'react';
+import Header from './components/Header/Header';
+import MainContent from './components/MainContent/MainContent';
+import './App.css';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger'; 
+gsap.registerPlugin(ScrollTrigger); 
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    <p>Hola te amo♥️</p>
-    </>
-  )
+    <div className="App">
+      <Header />
+      <MainContent />
+    </div>
+  );
 }
 
-export default App
+export default App;
+
+
+

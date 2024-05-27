@@ -1,0 +1,17 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10%;
+    background-color: #1a1d3a;
+    color: white;
+  }
+  
+  .main-content h1 .highlight {
+    color: #ffba00; /* Or the specific color you want */
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
