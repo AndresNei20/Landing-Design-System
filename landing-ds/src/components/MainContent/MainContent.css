@@ -3,15 +3,55 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 10%;
-    background-color: #1a1d3a;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
     color: white;
+    margin: 0;
+  }
+
+.title-main {
+    width: 30%;
+    padding-left: 10%;
+    
+}
+
+.title-container {
+    width: 100%;
+    background: linear-gradient(135deg, #2a1c5340, #5E3EB900 );
+    padding: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+  }
+
+.title-main p {
+    font-size: 2rem;
+}
+
+  .main-content h1{
+    font-size: 3rem;
   }
   
   .main-content h1 .highlight {
     color: #ffba00; /* Or the specific color you want */
   }
+
+  .main-content h1 .highlight-2 {
+    color: #ff0000; /* Or the specific color you want */
+  }
+
+  .title-main p .highlight-3 {
+    font-weight: bold;
+  }
+
+
+
+
   
   .buttons {
-    margin-top: 20px;
+    display: flex;
+    margin-left: 10%;
+    gap: 20px;
+    flex-direction: row;
+    margin-top: 5%;
   }

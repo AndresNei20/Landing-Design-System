@@ -5,7 +5,6 @@
     align-items: center;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #181b2a;
     color: white;
   }
   
@@ -24,13 +23,19 @@
   
   nav ul {
     display: flex;
+    gap: 10%;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50vh;
+    padding-top: 6%;
+    border-radius: 200px;
+    padding-bottom: 6%;
     list-style: none;
+    background-color: #2a1c5340;
     
   }
   
-  nav li {
-    padding-left: 8%;
-  }
+  
   
   nav a {
     color: white;
