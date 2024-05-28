@@ -17,8 +17,7 @@ export const Quote = () => {
       },
       duration: 5,
       opacity: 1,
-      onStart: () => (quoteText.style.borderRight = "0.15em solid orange"),
-      onComplete: () => (quoteText.style.borderRight = "none"),
+      
     });
   }, []);
 
