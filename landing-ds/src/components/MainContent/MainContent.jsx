@@ -1,6 +1,7 @@
 import React from 'react';
 import BackgroundFigures from '../BackgroundFigures/BackgroundFigures';
 import Button from '../Button/Button';
+import { Mockup } from '../Mockup/Mockup';
 
 
 import './MainContent.css';
@@ -9,6 +10,7 @@ const MainContent = () => {
   return (
     <main className="main-content">
         <BackgroundFigures></BackgroundFigures>
+        <Mockup></Mockup>
         <div className='title-container'>
         <div className='title-main'>
         <h1>Unlock <span className="highlight">Unprecedented</span> Design <span className="highlight-2">Efficiency</span></h1>

@@ -1,0 +1,14 @@
+
+.mockup-container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.mockup-container img{
+    width: 55%;
+    position: absolute;
+    top: 15%;
+    right: 0px;
+}
