@@ -1,0 +1,20 @@
+
+
+.quote-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15%;
+  }
+  
+  .h3-quote {
+    font-size: 2.5rem; /* Ajusta el tamaño de la fuente según sea necesario */
+    max-width: 100%;
+    opacity: 0; /* Ocultar inicialmente para la animación */
+    border-right: 0.15em solid orange; /* Cursor de escritura */
+  }
+
+  .design-system {
+    color: rgb(255, 37, 219);
+  }

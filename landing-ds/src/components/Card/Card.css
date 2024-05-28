@@ -1,0 +1,56 @@
+.card-container {
+    background-color: #2A1C53;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    min-height: 460px;
+    padding: 2%;
+    border-radius: 16px;
+    max-height: 460px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .card-container:hover {
+    transform: translateY(-10px) rotateX(5deg) rotateY(2deg); /* Transformación 3D para el efecto de elevación */
+   background-color: #FEFDFA;
+   color: #2A1C53;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3); /* Sombra para el efecto de elevación */
+  }
+
+.card-container button{
+    margin-top: 5%;
+}
+
+
+
+.image-card {
+    width: 75%;
+    max-height: 330px;
+    margin-top: 15%;
+}
+
+.info-card h3 {
+    font-size: 1.5rem;
+    
+
+
+}
+
+.info-card p {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
