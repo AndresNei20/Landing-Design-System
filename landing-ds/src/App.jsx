@@ -7,6 +7,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger'; 
 import { Cards } from './components/Cards/Cards';
 import { Quote } from './components/Quote/Quote';
+import { ValueCards } from './components/ValueCards/ValueCards';
 gsap.registerPlugin(ScrollTrigger); 
 
 
@@ -18,6 +19,7 @@ function App() {
       <MainContent />
       <Cards></Cards>
       <Quote></Quote>
+      <ValueCards></ValueCards>
     </div>
   );
 }

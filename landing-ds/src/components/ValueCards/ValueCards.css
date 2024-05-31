@@ -1,0 +1,12 @@
+.v-cards-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    overflow-wrap: break-word; 
+    margin: auto; 
+    gap: 2%;
+    padding-top: 0%;
+    padding-bottom: 8%;
+  }

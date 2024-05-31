@@ -1,0 +1,22 @@
+.graph {
+  width: 12%;
+  height: fit-content;
+  z-index: 1;
+  position: absolute;
+  top: 18%;
+  right: 18%;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: pointer;
+  opacity: 0; /* Start hidden */
+  animation: fadeIn 0.5s forwards; /* Add fade-in animation */
+}
+
+.graph.hovered {
+  transform: scale(1.2); /* Adjust the scale as needed */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* End state */
+  }
+}
