@@ -8,6 +8,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Cards } from './components/Cards/Cards';
 import { Quote } from './components/Quote/Quote';
 import { ValueCards } from './components/ValueCards/ValueCards';
+import { HowItWorks } from './components/HowItWorks/HowItWorks';
+import { Bento } from './components/Bento/Bento';
 gsap.registerPlugin(ScrollTrigger); 
 
 
@@ -20,6 +22,8 @@ function App() {
       <Cards></Cards>
       <Quote></Quote>
       <ValueCards></ValueCards>
+      <HowItWorks></HowItWorks>
+      <Bento></Bento>
     </div>
   );
 }

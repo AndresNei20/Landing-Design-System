@@ -1,0 +1,27 @@
+.steps-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    gap: 10%;
+    height: fit-content;
+    max-height: 200px;
+    padding: 2%;
+    border-radius: 16px;
+    margin-top: 5%;
+}
+
+.step-title{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.steps-container:hover{
+    transform: scale(1.2); 
+    color: #DD141D;
+}
+
+.step-description{
+    font-size: 1.0rem;
+}

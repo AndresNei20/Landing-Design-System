@@ -1,0 +1,21 @@
+.steps-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 7%;
+}
+
+.howitworks-container h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+.howitworks-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
