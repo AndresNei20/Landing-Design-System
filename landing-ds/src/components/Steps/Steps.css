@@ -25,3 +25,18 @@
 .step-description{
     font-size: 1.0rem;
 }
+
+@media (max-width: 600px) {
+    .steps-container {
+        font-size: 1.6rem;  
+    }
+    .step-title{
+        font-size: 2rem;
+    }
+
+    .step-description{
+        font-size: 0.7rem;
+    }
+
+
+}

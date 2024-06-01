@@ -1,4 +1,4 @@
-.steps-wrap{
+.steps-wrap {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -7,7 +7,7 @@
     gap: 7%;
 }
 
-.howitworks-container h2{
+.howitworks-container h2 {
     font-size: 2.5rem;
     font-weight: bolder;
     margin: 0 auto;
@@ -18,4 +18,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 600px) {
+    .howitworks-container h2 {
+        font-size: 1.6rem;  
+    }
+
+
 }
