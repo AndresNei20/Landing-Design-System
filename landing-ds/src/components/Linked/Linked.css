@@ -1,0 +1,39 @@
+.linked-title-container{
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .linked-title-container h2{
+    font-size: 3rem;
+
+  }
+
+  .buttons-actions-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+  }
+  .mockups-img{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .try-it-section {
+    background-color: #2A1C53;
+    margin-top: 8%;
+    margin-bottom: 6%;
+
+  }

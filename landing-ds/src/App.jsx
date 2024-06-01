@@ -11,6 +11,8 @@ import { ValueCards } from './components/ValueCards/ValueCards';
 import { HowItWorks } from './components/HowItWorks/HowItWorks';
 import { Bento } from './components/Bento/Bento';
 import { Video } from './components/Video/Video';
+import { Linked } from './components/Linked/Linked';
+import Footer from './components/Footer/Footer';
 gsap.registerPlugin(ScrollTrigger); 
 
 
@@ -26,6 +28,8 @@ function App() {
       <HowItWorks></HowItWorks>
       <Bento></Bento>
       <Video></Video>
+      <Linked></Linked>
+      <Footer></Footer>
     </div>
   );
 }
