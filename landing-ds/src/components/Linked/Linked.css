@@ -37,3 +37,22 @@
     
 
   }
+
+  @media (max-width: 600px) {
+    
+      .linked-title-container h2{
+        font-size: 1.8rem;
+        padding-left:5% ;
+        padding-right:5% ;
+        text-align: center;
+    
+      }
+
+
+      .linked-title-container p{
+       width: 60%;
+       text-align: center;
+      }
+
+
+    }

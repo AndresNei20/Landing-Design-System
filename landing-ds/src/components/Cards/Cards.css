@@ -11,5 +11,25 @@
     transform: translateY(50px); /* Posición inicial para la animación */
   }
   
-
+  @media (max-width: 600px) {
+    .cards-container {
+      justify-content: flex-start;
+      flex-wrap: nowrap; /* Prevent wrapping */
+      overflow-x: auto; /* Enable horizontal scrolling */
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+      width: 100%;
+      margin: 0 auto;/* Keep padding for better touch experience */
+      margin-top: 8%;
+      box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    }
   
+    .cards-container::-webkit-scrollbar {
+      display: none; /* Hide scrollbar on WebKit browsers */
+    }
+  
+    .card {
+      min-width: 80%; /* Ensure cards take enough space to require scrolling */
+      flex: 0 0 auto; /* Prevent shrinking */
+      box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    }
+  }

@@ -40,9 +40,49 @@
     
   }
   
-  
-  
   nav a {
     color: white;
     text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    .header{
+    width: 100%;
+    gap: 8%;
+    flex-direction: column;
+    z-index: 3;
+    position: fixed;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    color: white;
+    }
+
+    nav ul {
+      align-items: center;
+      justify-content: center;
+      padding-top: 2%;
+      border-radius: 200px;
+      padding-bottom: 2%;
+      list-style: none;
+      padding-left: 0%;
+      background-color: #2a1c5340;
+      border-radius: 0%;
+      
+    }
+
+    .logo  {
+      width: 70%;
+      font-size: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo p {
+     display: none;
+    }
+    
+   
+
   }

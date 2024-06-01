@@ -7,7 +7,8 @@ const Header = () => {
         
       <div className="logo">
       <img className='logoimg' src='src/assets/logodavi.png'></img>
-        Daviplata Version 1.0</div>
+        <p>Daviplata Version 1.0</p>
+        </div>
       <nav>
         <ul>
           <li><a href="#overview">Overview</a></li>

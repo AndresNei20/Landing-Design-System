@@ -38,3 +38,28 @@
         color: #2A1C53;
     }
 }
+
+@media (max-width: 600px) {
+  .h3-quote {
+    font-size: 1.8rem; /* Ajusta el tamaño de la fuente según sea necesario */
+    max-width: 100%;
+    opacity: 0; /* Ocultar inicialmente para la animación */
+  }
+  .design-system {
+    font-size:2rem;
+    color: rgb(255, 37, 219);
+  }
+
+  .quote-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+
+}

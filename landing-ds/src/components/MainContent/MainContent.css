@@ -42,10 +42,6 @@
   .title-main p .highlight-3 {
     font-weight: bold;
   }
-
-
-
-
   
   .buttons {
     display: flex;
@@ -53,4 +49,28 @@
     gap: 20px;
     flex-direction: row;
     margin-top: 5%;
+  }
+
+  @media (max-width: 600px) {
+    .main-content {
+     width: 100%;
+    }
+
+    .title-container{
+      margin-top: 18%;
+    }
+
+    .title-main p {
+      font-size: 1rem;
+  }
+
+  .title-main{
+    width: 70%;
+  }
+  
+    .main-content h1{
+      font-size: 1.8rem;
+      width: 60%;
+    }
+
   }

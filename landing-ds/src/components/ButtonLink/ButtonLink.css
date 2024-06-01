@@ -1,4 +1,4 @@
-
+/* Base styles */
 .button-link-container {
     background-color: #FEFDFA;
     width: 15%;
@@ -13,10 +13,28 @@
     gap: 5%;
     padding: 0.5%;
     border-radius: 16px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.button-link-container btn :hover{
+.button-link-container:hover {
     background-color: #1B1234;
     color: #DD141D;
-    
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .button-link-container {
+        min-width: 70px;
+        max-width: 70px;
+        width: 30%; /* Increase the width to make it more touch-friendly */
+        max-height: none; /* Allow the button to adjust its height if needed */
+        padding: 1%; /* Increase padding for better touch experience */
+        font-size: 1rem; /* Adjust font size for readability */
+        gap: 2%; /* Reduce gap between elements */
+        border-radius: 6px;
+    }
+
+    .button-link-container p{
+        display: none;
+    }
 }

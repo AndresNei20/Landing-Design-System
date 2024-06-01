@@ -28,3 +28,9 @@
       opacity: 1; /* End state */
     }
   }
+
+  @media (max-width: 600px) {
+    .checkbox{
+       
+       display: none;
+    }}

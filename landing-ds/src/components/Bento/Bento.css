@@ -1,4 +1,4 @@
-/* Bento.css */
+
 .title-bento {
     display: flex;
     gap: 10%;
@@ -6,43 +6,43 @@
     justify-content: center;
     margin-top: 8%;
     margin-bottom: 5%;
-  }
+}
   
-  .title-bento h2 {
+.title-bento h2 {
     margin: 0;
     font-size: 3rem;
-  }
+}
   
-  .bento-wrap{
+.bento-wrap {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
     align-items: center;
-  }
+}
 
-  .bento-wrap img {
+.bento-wrap img {
     width: 85%;
     height: auto;
     margin: 0 auto;
-  }
+}
   
-  /* Toggle switch styles */
-  .switch {
+/* Toggle switch styles */
+.switch {
     position: relative;
     display: inline-block;
     width: 9%;
     height: 54px;
     box-sizing: border-box;
-  }
+}
   
-  .switch input {
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
+}
   
-  .slider {
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -52,9 +52,9 @@
     background-color: #FEFDFA;
     transition: .4s;
     border-radius: 34px;
-  }
+}
   
-  .slider:before {
+.slider:before {
     position: absolute;
     content: "";
     height: 50px;
@@ -66,13 +66,42 @@
     box-sizing: border-box; 
     transition: .4s;
     border-radius: 50%;
-  }
+}
   
-  input:checked + .slider {
+input:checked + .slider {
     background-color: #DD141D;
-  }
+}
   
-  input:checked + .slider:before {
+input:checked + .slider:before {
     transform: translateX(145%);
-  }
+}
   
+@media (max-width: 600px) {
+    .switch {
+        width: 50px; /* Adjust width for small screens */
+        height: 30px; /* Adjust height for small screens */
+    }
+
+    .slider {
+        border-radius: 15px; /* Adjust border radius for small screens */
+    }
+
+    .slider:before {
+        height: 26px; /* Adjust height for small screens */
+        width: 26px; /* Adjust width for small screens */
+        left: 2px; /* Adjust left position for small screens */
+        bottom: 2px; /* Adjust bottom position for small screens */
+    }
+
+    input:checked + .slider:before {
+        transform: translateX(20px); /* Adjust transform value for small screens */
+    }
+
+    .title-bento h2 {
+        font-size: 1.5rem; /* Adjust font size for small screens */
+    }
+
+    .title-bento {
+        gap: 4%;
+    }
+}
