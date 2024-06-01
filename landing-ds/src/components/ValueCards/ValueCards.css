@@ -10,3 +10,20 @@
     padding-top: 0%;
     padding-bottom: 8%;
   }
+
+  @media (max-width: 600px) {
+    .v-cards-wrap {
+        justify-content: flex-start;
+        flex-direction: row; /* Keep cards in a row */
+        flex-wrap: nowrap; /* Prevent wrapping to new lines */
+        align-items: stretch; /* Stretch cards to full height */
+        gap: 10px; /* Adjust gap as needed */
+        padding: 5% 2%; /* Adjust padding for better spacing */
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+        scroll-snap-type: x mandatory; /* Enable snap scrolling */
+    }
+
+    
+}
+

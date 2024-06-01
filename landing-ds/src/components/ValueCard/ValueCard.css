@@ -11,33 +11,74 @@
     min-width: 360px;
     padding: 1%;
     background-color: #2A1C53;
-    color: #FEFDFA; /* Ensure initial text color contrasts with background */
-    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Enhanced transitions */
-  }
-  
-  .v-card-wrap:hover {
+    color: #FEFDFA;
+    /* Ensure initial text color contrasts with background */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    /* Enhanced transitions */
+}
+
+.v-card-wrap:hover {
     background-color: #FEFDFA;
     color: #2A1C53;
-    transform: scale(1.05); 
-  }
-  
-  .text-icon-wrap {
+    transform: scale(1.05);
+}
+
+.text-icon-wrap {
     display: flex;
     flex-direction: row;
     gap: 3%;
     width: 100%;
-  }
-  
-  .title-vcard {
+}
+
+.title-vcard {
     font-weight: bold;
     font-size: 1.5rem;
-  }
-  
-  .icon-vcard {
+}
+
+.icon-vcard {
     width: 25px;
-  }
-  
-  .text-vcard {
+}
+
+.text-vcard {
     font-size: medium;
-  }
-  
+}
+
+@media (max-width: 600px) {
+    .v-card-wrap {
+        width: 250px;
+        min-width: 250px;
+        max-width: 250px;
+        padding: 5%;
+        height: fit-content;
+        margin-left: 20px;
+    }
+
+    .text-vcard {
+        width: 100%;
+    }
+
+    .text-vcard p {
+        font-size: 0.8rem;
+    }
+
+    .title-vcard {
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 0%;
+        width: 70%;
+        
+      
+    }
+    .text-icon-wrap {
+        width: 80%;
+        gap: 0%;
+        margin: 0 auto;
+    }
+
+    .icon-vcard{
+        margin: 0;
+        padding: 0;
+    }
+
+
+}
