@@ -26,7 +26,7 @@ const MainContent = () => {
       
       
       <div className="buttons">
-        <Button text="Visit Figma File" />
+        <Button link="https://www.figma.com/design/oIrFDetW1W0Xw37eZDcsUh/Daviplata-UI-Kit?node-id=182-1038&t=Y2jhfC9c8kNug7v6-1" text="Visit Figma File" />
         <Button text="Access Now!" primary />
       </div>
     </main>
