@@ -12,9 +12,9 @@ export const Linked = () => {
             </div>
 
             <div className='buttons-actions-container'>
-                <ButtonLink link="https://www.figma.com/design/oIrFDetW1W0Xw37eZDcsUh/Daviplata-UI-Kit?node-id=76-156&t=39PQvnxDNgrQK9Ug-1" icon="../../../../public/figma.svg" hoverIcon="../../../../public/figma2.svg" text="Visit Figma File" ></ButtonLink>
-                <ButtonLink link="PENDIENTE" icon="../../../../public/documentation.svg" hoverIcon="src/assets/documentation2.svg" text="Read Documentation" ></ButtonLink>
-                <ButtonLink link="PENDIENTE" icon="../../../../public/download.svg" hoverIcon="../../../../public/download2.svg" text="Download all Resources" ></ButtonLink>
+                <ButtonLink link="https://www.figma.com/design/oIrFDetW1W0Xw37eZDcsUh/Daviplata-UI-Kit?node-id=76-156&t=39PQvnxDNgrQK9Ug-1" icon="https://i.postimg.cc/TLWVQScr/Outline.png" hoverIcon="https://i.postimg.cc/XBSwP82t/Outline-1.png" text="Visit Figma File" ></ButtonLink>
+                <ButtonLink link="PENDIENTE" icon="https://i.postimg.cc/7ChMJbGt/Outline.png" hoverIcon="https://i.postimg.cc/NKpk0RMr/Outline-1.png" text="Read Documentation" ></ButtonLink>
+                <ButtonLink link="PENDIENTE" icon="https://i.postimg.cc/xXTLBqRj/Outline.png" hoverIcon="https://i.postimg.cc/QHqp6ccn/Outline-1.png" text="Download all Resources" ></ButtonLink>
             </div>
         </div>
 
