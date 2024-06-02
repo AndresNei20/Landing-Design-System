@@ -1,29 +1,32 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import './Video.css';
 
 export const Video = () => {
-  const videoRef = useRef(null);
+  const divStyle = {
+    padding: '62.5% 0 0 0',
+    position: 'relative'
+  };
 
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 2.0; // Adjust the playback speed here
-      videoRef.current.loop = true;
-      videoRef.current.muted = true;
-      videoRef.current.play();
-    }
-  }, []);
+  const iframeStyle = {
+    position: 'absolute',
+    top: '0',
+    left: '0',
+    width: '80%',
+    height: '100%',
+  };
 
   return (
     <>
-    <div className='video-title-container'>
-        <h2 className='video-tile'> Create your screens in seconds!</h2>
-    </div>
-    <div className='video-container'>
-      <video ref={videoRef} playsInline>
-        <source src="../../../public/assets/video1.mov" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
+      <div style={divStyle}>
+        <iframe
+          src="https://player.vimeo.com/video/952791982?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+          style={iframeStyle}
+          title="video1 (1)"
+        ></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
     </>
   );
-}
+};
