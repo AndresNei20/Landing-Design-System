@@ -11,12 +11,15 @@ export const Video = () => {
     position: 'absolute',
     top: '0',
     left: '0',
-    width: '80%',
+    width: '100%',
     height: '100%',
   };
 
   return (
     <>
+    <div className='video-title-container'>
+        <h2 className='video-tile'> Create your screens in seconds!</h2>
+    </div>
       <div style={divStyle}>
         <iframe
           src="https://player.vimeo.com/video/952791982?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
