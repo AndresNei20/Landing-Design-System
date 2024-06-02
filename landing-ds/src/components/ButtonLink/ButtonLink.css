@@ -21,6 +21,11 @@
     color: #DD141D;
 }
 
+.link-icon{
+    width: 30px;
+    height: fit-content;
+}
+
 /* Media query for smaller screens */
 @media (max-width: 600px) {
     .button-link-container {
@@ -36,5 +41,9 @@
 
     .button-link-container p{
         display: none;
+    }
+    .link-icon{
+        width: 20px;
+        height: fit-content;
     }
 }

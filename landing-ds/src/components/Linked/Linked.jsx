@@ -12,9 +12,9 @@ export const Linked = () => {
             </div>
 
             <div className='buttons-actions-container'>
-                <ButtonLink link="https://www.figma.com/design/oIrFDetW1W0Xw37eZDcsUh/Daviplata-UI-Kit?node-id=76-156&t=39PQvnxDNgrQK9Ug-1" icon="https://i.postimg.cc/TLWVQScr/Outline.png" hoverIcon="https://i.postimg.cc/XBSwP82t/Outline-1.png" text="Visit Figma File" ></ButtonLink>
-                <ButtonLink link="PENDIENTE" icon="https://i.postimg.cc/7ChMJbGt/Outline.png" hoverIcon="https://i.postimg.cc/NKpk0RMr/Outline-1.png" text="Read Documentation" ></ButtonLink>
-                <ButtonLink link="PENDIENTE" icon="https://i.postimg.cc/xXTLBqRj/Outline.png" hoverIcon="https://i.postimg.cc/QHqp6ccn/Outline-1.png" text="Download all Resources" ></ButtonLink>
+                <ButtonLink link="https://www.figma.com/community/file/1378996455693948754/daviplata-ui-kit" icon="https://i.postimg.cc/TLWVQScr/Outline.png" hoverIcon="https://i.postimg.cc/XBSwP82t/Outline-1.png" text="Visit Figma File" ></ButtonLink>
+                <ButtonLink link="https://zeroheight.com/5ccd4919c" icon="https://i.postimg.cc/7ChMJbGt/Outline.png" hoverIcon="https://i.postimg.cc/NKpk0RMr/Outline-1.png" text="Read Documentation" ></ButtonLink>
+                <ButtonLink link="https://drive.google.com/drive/folders/1XTLrpZdImVsgc1kZoVVgDMtY8N6jop86?usp=sharing" icon="https://i.postimg.cc/xXTLBqRj/Outline.png" hoverIcon="https://i.postimg.cc/QHqp6ccn/Outline-1.png" text="Download all Resources" ></ButtonLink>
             </div>
         </div>
 

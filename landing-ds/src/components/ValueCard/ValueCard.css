@@ -28,6 +28,8 @@
     flex-direction: row;
     gap: 3%;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-vcard {
@@ -36,11 +38,16 @@
 }
 
 .icon-vcard {
-    width: 25px;
+    width: 35px;
+    height: fit-content;
+
 }
+
 
 .text-vcard {
     font-size: medium;
+    
+   
 }
 
 @media (max-width: 600px) {
