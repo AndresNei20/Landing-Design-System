@@ -23,7 +23,7 @@
   }
   
   .figure-2 {
-    width: 20%;
+    width: 250px;
     top: -40%; /* Start above the view */
     left: 5%;
     animation: fall 5s ease-in-out forwards;
@@ -62,5 +62,11 @@
     100% {
       transform: translateY(80vh); /* End at a specific position */
       opacity: 1; /* Stay visible */
+    }
+  }
+
+  @media (max-width:768px) {
+    .figure-2 {
+      width: 100px;
     }
   }

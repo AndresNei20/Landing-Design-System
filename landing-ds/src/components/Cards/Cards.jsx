@@ -29,9 +29,9 @@ export const Cards = () => {
 
   return (
     <div className='cards-container'>
-      <Card img="../../../../public/icons1.png" hoverImg="../../../../public/icons1-2.png" text="Our Values" description="Secure management of products and services, honesty, transparency, equality, respect, efficiency and discipline" />
-      <Card img="https://i.ibb.co/rmpBxLQ/icons2-2.png" hoverImg="../../../../public/icons2-2.png" text="Design System" description="A design system inspired by the famous digital wallet Daviplata and the desire to improve it" />
-      <Card img="../../../../public/icons3.png" hoverImg="../../../../public/icons3-2.png" text="Easy to Use" description="Unlock the potential of your design with just a few clicks and a desire to enhance your creative vision" />
+      <Card img="https://i.ibb.co/THKMqLj/icons1.png" hoverImg="https://i.ibb.co/1bqrXZy/icons1-2.png" text="Our Values" description="Secure management of products and services, honesty, transparency, equality, respect, efficiency and discipline" />
+      <Card img="https://i.ibb.co/rmpBxLQ/icons2-2.png" hoverImg="https://i.ibb.co/MZSfgyp/icons2.png" text="Design System" description="A design system inspired by the famous digital wallet Daviplata and the desire to improve it" />
+      <Card img="https://i.ibb.co/6YPZrT2/icons3.png" hoverImg="https://i.ibb.co/4KQwPHG/icons3-2.png" text="Easy to Use" description="Unlock the potential of your design with just a few clicks and a desire to enhance your creative vision" />
     </div>
   );
 };
