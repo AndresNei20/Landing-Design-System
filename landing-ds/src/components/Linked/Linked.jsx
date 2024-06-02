@@ -18,7 +18,7 @@ export const Linked = () => {
             </div>
         </div>
 
-        <img className='mockups-img' src='../../../../public/mockuppages.svg'></img>
+        <img className='mockups-img' src='https://i.postimg.cc/Bbw7pfJ1/mockup2.png'></img>
         </div>
     )
 }
