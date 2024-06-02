@@ -11,7 +11,7 @@ export const Bento = () => {
   };
 
   // Conditionally set the image source based on the state
-  const imgSrc = isToggled ? "../../../../public/assets/bento2.svg" : "src/assets/bento1.svg";
+  const imgSrc = isToggled ? "https://i.postimg.cc/m2VzkZ8w/bento2.png" : "https://i.postimg.cc/tTPn4hMZ/bento1.png";
 
   return (
     <>
