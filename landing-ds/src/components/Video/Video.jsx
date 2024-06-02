@@ -20,7 +20,7 @@ export const Video = () => {
     </div>
     <div className='video-container'>
       <video ref={videoRef} playsInline>
-        <source src="../../../public/video1.mov" type="video/mp4" />
+        <source src="../../../public/assets/video1.mov" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </div>
