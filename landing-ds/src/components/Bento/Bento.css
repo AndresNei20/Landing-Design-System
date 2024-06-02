@@ -31,7 +31,7 @@
 .switch {
     position: relative;
     display: inline-block;
-    width: 9%;
+    width: 150px;
     height: 54px;
     box-sizing: border-box;
 }
@@ -59,7 +59,7 @@
     content: "";
     height: 50px;
     width: 50px;
-    left: 4%;
+    left: 5px;
     bottom: 2px;
     background-color: #FEFDFA;
     border: 2px solid #DD141D;
@@ -73,7 +73,7 @@ input:checked + .slider {
 }
   
 input:checked + .slider:before {
-    transform: translateX(145%);
+    transform: translateX(92px);
 }
   
 @media (max-width: 600px) {
