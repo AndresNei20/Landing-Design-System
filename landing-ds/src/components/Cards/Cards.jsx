@@ -29,9 +29,9 @@ export const Cards = () => {
 
   return (
     <div className='cards-container'>
-      <Card img="src/assets/icons1.png" hoverImg="src/assets/icons1-2.png" text="Our Values" description="Secure management of products and services, honesty, transparency, equality, respect, efficiency and discipline" />
-      <Card img="src/assets/icons2.png" hoverImg="src/assets/icons2-2.png" text="Design System" description="A design system inspired by the famous digital wallet Daviplata and the desire to improve it" />
-      <Card img="src/assets/icons3.png" hoverImg="src/assets/icons3-2.png" text="Easy to Use" description="Unlock the potential of your design with just a few clicks and a desire to enhance your creative vision" />
+      <Card img="../../../../public/icons1.png" hoverImg="../../../../public/icons1-2.png" text="Our Values" description="Secure management of products and services, honesty, transparency, equality, respect, efficiency and discipline" />
+      <Card img="../../../../public/icons2.png" hoverImg="../../../../public/icons2-2.png" text="Design System" description="A design system inspired by the famous digital wallet Daviplata and the desire to improve it" />
+      <Card img="../../../../public/icons3.png" hoverImg="../../../../public/icons3-2.png" text="Easy to Use" description="Unlock the potential of your design with just a few clicks and a desire to enhance your creative vision" />
     </div>
   );
 };

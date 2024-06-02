@@ -12,13 +12,13 @@ export const Linked = () => {
             </div>
 
             <div className='buttons-actions-container'>
-                <ButtonLink link="https://www.figma.com/design/oIrFDetW1W0Xw37eZDcsUh/Daviplata-UI-Kit?node-id=76-156&t=39PQvnxDNgrQK9Ug-1" icon="src/assets/figma.svg" hoverIcon="src/assets/figma2.svg" text="Visit Figma File" ></ButtonLink>
-                <ButtonLink link="PENDIENTE" icon="src/assets/documentation.svg" hoverIcon="src/assets/documentation2.svg" text="Read Documentation" ></ButtonLink>
-                <ButtonLink link="PENDIENTE" icon="src/assets/download.svg" hoverIcon="src/assets/download2.svg" text="Download all Resources" ></ButtonLink>
+                <ButtonLink link="https://www.figma.com/design/oIrFDetW1W0Xw37eZDcsUh/Daviplata-UI-Kit?node-id=76-156&t=39PQvnxDNgrQK9Ug-1" icon="../../../../public/figma.svg" hoverIcon="../../../../public/figma2.svg" text="Visit Figma File" ></ButtonLink>
+                <ButtonLink link="PENDIENTE" icon="../../../../public/documentation.svg" hoverIcon="src/assets/documentation2.svg" text="Read Documentation" ></ButtonLink>
+                <ButtonLink link="PENDIENTE" icon="../../../../public/download.svg" hoverIcon="../../../../public/download2.svg" text="Download all Resources" ></ButtonLink>
             </div>
         </div>
 
-        <img className='mockups-img' src='src/assets/mockuppages.svg'></img>
+        <img className='mockups-img' src='../../../../public/mockuppages.svg'></img>
         </div>
     )
 }

@@ -7,7 +7,7 @@ export const Graph = () => {
   return (
 
     <img 
-      src={hovered ? "src/assets/graph2.svg" : "src/assets/graph.svg"}
+      src={hovered ? "../../../../public/graph2.svg" : "../../../../public/graph.svg"}
       className={hovered ? "graph hovered" : "graph"}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
