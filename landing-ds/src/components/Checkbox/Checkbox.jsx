@@ -23,7 +23,7 @@ export const Checkbox = () => {
 
   return (
     <img 
-      src={clicked ? "../../../../public/check2.svg" : (hovered ? "../../../../public/check3.svg" : "../../../../public/check.svg")}
+      src={clicked ? "../../../../public/check2.svg" : (hovered ? "../../../../public/check3.svg" : "https://i.ibb.co/HB0xt1k/checkbox1.png")}
       className={`checkbox ${hovered ? 'hovered' : ''} ${clicked ? 'clicked' : ''}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
