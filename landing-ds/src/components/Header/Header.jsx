@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header">
         
       <div className="logo">
-      <img className='logoimg' src='../../../../public/logodavi.png'></img>
+      <img className='logoimg' src='https://i.ibb.co/tqjzrsY/logodavi.png'></img>
         <p>Daviplata Version 1.0</p>
         </div>
       <nav>
