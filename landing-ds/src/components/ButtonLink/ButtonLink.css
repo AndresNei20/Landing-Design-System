@@ -23,7 +23,7 @@
 
 .link-icon{
     width: 30px;
-    height: fit-content;
+    height: 30px;
 }
 
 /* Media query for smaller screens */
@@ -44,6 +44,6 @@
     }
     .link-icon{
         width: 20px;
-        height: fit-content;
+        height: 20px;
     }
 }
