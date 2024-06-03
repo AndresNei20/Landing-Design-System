@@ -69,4 +69,21 @@
     .figure-2 {
       width: 100px;
     }
+
+    @keyframes fall2 {
+      0% {
+        transform: translateY(-100vh); /* Start above the screen */
+        opacity: 0; /* Start invisible */
+      }
+      25% {
+        opacity: 1; /* Fade in */
+      }
+      75% {
+        opacity: 1; /* Stay visible */
+      }
+      100% {
+        transform: translateY(35vh); /* End at a specific position */
+        opacity: 1; /* Stay visible */
+      }
+    }
   }

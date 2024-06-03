@@ -15,10 +15,7 @@
 
 @media (max-width: 600px) {
     .mockup-container img{
-        width: 55%;
-        position: absolute;
-        top: 14%;
-       left: 45%;
+        display: none;
     }
     
 

@@ -24,6 +24,5 @@
   @media (max-width: 600px) {
     .tooltip{
        
-        top: 16%;
-       left: 55%;
+       display: none;
     }}
