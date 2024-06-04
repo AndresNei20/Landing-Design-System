@@ -12,12 +12,12 @@ export const ValueCards = () => {
   return (
     <>
     <div className='v-cards-wrap'>
-      <ValueCard title="Target Audience" img="https://i.postimg.cc/kB4tJz0q/target.png" hoverIcon="https://i.postimg.cc/MXtQ8qr9/targethover.png" text="People who are unbanked or underbanked, a design system that helps you to improve your financial idea"></ValueCard>
-      <ValueCard title="Design Tokens" img="https://i.postimg.cc/Ny1KCcH7/Tokens-1.png" hoverIcon="https://i.postimg.cc/JDMG923w/Tokens.png" text="Tokenized components with figma variables like colors, spacing and typography"></ValueCard>
-      <ValueCard title="Dark Mode" img="https://i.postimg.cc/BXktq65B/Moon-1.png" hoverIcon="https://i.postimg.cc/svvvdSW2/Moon.png" text="Enable dark mode with a single click, enable to use our components on different modes"></ValueCard>
-      <ValueCard title="Personality" img="https://i.postimg.cc/G4T8YY3f/Outline-1.png" hoverIcon="https://i.postimg.cc/VdV0d4wM/Outline.png" text="Friendly finance assistant, ideal if your looking more than the usual components"></ValueCard>
-      <ValueCard title="New Styles" img="https://i.postimg.cc/7JLbLJQm/star-1.png" hoverIcon="https://i.postimg.cc/qhwz0xQN/star.png" text="New look to the famous Daviplata app, a different idea which make a new identity "></ValueCard>
-      <ValueCard title="Simplified Tasks" img="https://i.postimg.cc/GBJpJxWX/Remove-1.png" hoverIcon="https://i.postimg.cc/TyXwD44y/Remove.png" text="Ideal for all type of desings, not just for one area. You can match it with all!"></ValueCard>
+      <ValueCard title="Target Audience" benefit="Tailored for Your Needs" img="https://i.postimg.cc/kB4tJz0q/target.png" hoverIcon="https://i.postimg.cc/MXtQ8qr9/targethover.png" text="Maximize engagement with designs specifically crafted for your audience's preferences"></ValueCard>
+      <ValueCard title="Design Tokens" benefit="Consistent & Efficient" img="https://i.postimg.cc/Ny1KCcH7/Tokens-1.png" hoverIcon="https://i.postimg.cc/JDMG923w/Tokens.png" text="Achieve design consistency and streamline your workflow with reusable design tokens"></ValueCard>
+      <ValueCard title="Dark Mode" benefit="Modern & Eye-Friendly" img="https://i.postimg.cc/BXktq65B/Moon-1.png" hoverIcon="https://i.postimg.cc/svvvdSW2/Moon.png" text="Enhance user experience with an attractive, eye-friendly dark mode"></ValueCard>
+      <ValueCard title="Personality" benefit="Unique & Memorable" img="https://i.postimg.cc/G4T8YY3f/Outline-1.png" hoverIcon="https://i.postimg.cc/VdV0d4wM/Outline.png" text="Infuse your designs with a distinct personality to make a lasting impression"></ValueCard>
+      <ValueCard title="New Styles" benefit="Fresh & Innovative" img="https://i.postimg.cc/7JLbLJQm/star-1.png" hoverIcon="https://i.postimg.cc/qhwz0xQN/star.png" text="Stay ahead with cutting-edge styles that captivate and inspire"></ValueCard>
+      <ValueCard title="Simplified Tasks" benefit="Easy & Productive"  img="https://i.postimg.cc/GBJpJxWX/Remove-1.png" hoverIcon="https://i.postimg.cc/TyXwD44y/Remove.png" text="Boost productivity by simplifying complex tasks, allowing you to focus on creativity"></ValueCard>
     </div>
     </>
   )

@@ -26,7 +26,7 @@ function App() {
       <Cards></Cards>
       <Quote></Quote>
       <Values></Values>
-      <h2 className='title-benefits'> What are the Benefits?</h2>
+      <h2 className='title-benefits'> Unlock the Benefits: Discover What Sets Us Apart</h2>
       <ValueCards></ValueCards>
       <HowItWorks></HowItWorks>
       <Bento></Bento>
