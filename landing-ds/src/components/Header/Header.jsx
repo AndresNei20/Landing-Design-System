@@ -7,7 +7,7 @@ const Header = () => {
         
       <div className="logo">
       <img className='logoimg' src='https://i.ibb.co/tqjzrsY/logodavi.png'></img>
-        <p>Daviplata Version 1.0</p>
+        <p>A Design System by UNITY</p>
         </div>
       <nav>
         <ul>

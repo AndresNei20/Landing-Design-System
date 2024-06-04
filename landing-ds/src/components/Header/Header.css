@@ -75,12 +75,15 @@
       width: 70%;
       font-size: 1rem;
       display: flex;
+      gap: 0;
+      padding: 0;
       flex-direction: row;
       justify-content: center;
       align-items: center;
     }
     .logo p {
-     display: none;
+      font-size: smaller;
+     
     }
     
    
