@@ -10,6 +10,19 @@
     
 }
 
+h2.title-benefits{
+    text-align: center;
+    font-size: 2.5rem;
+}
 
+@media (max-width: 600px) {
+
+    h2.title-benefits{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 8%;
+    }
+
+}
 
 

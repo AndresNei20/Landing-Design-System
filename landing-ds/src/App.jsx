@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import React from 'react';
 import Header from './components/Header/Header';
 import MainContent from './components/MainContent/MainContent';
@@ -13,6 +13,7 @@ import { Bento } from './components/Bento/Bento';
 import { Video } from './components/Video/Video';
 import { Linked } from './components/Linked/Linked';
 import Footer from './components/Footer/Footer';
+import { Values } from './components/Values/Values';
 gsap.registerPlugin(ScrollTrigger); 
 
 
@@ -24,6 +25,8 @@ function App() {
       <MainContent />
       <Cards></Cards>
       <Quote></Quote>
+      <Values></Values>
+      <h2 className='title-benefits'> What are the Benefits?</h2>
       <ValueCards></ValueCards>
       <HowItWorks></HowItWorks>
       <Bento></Bento>
