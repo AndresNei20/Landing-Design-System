@@ -3,7 +3,7 @@ import Button from '../Button/Button';
 import './Card.css';
 
 
-export const Card = ({ text, img, hoverImg, description }) => {
+export const Card = ({ text, img, hoverImg, description, link }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
@@ -17,7 +17,7 @@ export const Card = ({ text, img, hoverImg, description }) => {
             <h3>{text}</h3>
             <p>{description}</p>
           </div>
-          <Button text="See more" primary={isHovered} />
+          <Button link={link} text="See more" primary={isHovered} />
         </div>
       );
     };
