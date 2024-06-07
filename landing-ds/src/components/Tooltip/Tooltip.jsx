@@ -7,7 +7,7 @@ export const Tooltip = () => {
   return (
 
     <img 
-      src={hovered ? "https://i.postimg.cc/1zpXbNQD/tooltip2.png" : "https://i.postimg.cc/T35pq4N7/tooltip.png"}
+      src={hovered ? "https://i.postimg.cc/Nj1Rp8n1/Hover-Tooltip.png" : "https://i.postimg.cc/Ls2L7YdG/Tooltip.png"}
       className={hovered ? "tooltip hovered" : "tooltip"}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}

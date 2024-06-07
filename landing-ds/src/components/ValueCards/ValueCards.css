@@ -18,10 +18,6 @@
   align-items: center;
 }
 
-  
-  
-    
-
   @media (max-width: 600px) {
     .v-cards-wrap {
         justify-content: flex-start;

@@ -25,6 +25,7 @@
 .v-card-wrap:hover {
     background-color: #FEFDFA;
     color: #2A1C53;
+    transition: 300ms;
     transform: scale(1.05);
 }
 
