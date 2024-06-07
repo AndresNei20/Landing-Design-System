@@ -16,7 +16,6 @@ const MainContent = () => {
         <Mockup></Mockup>
         <Tooltip></Tooltip>
         <Checkbox></Checkbox>
-        <Graph></Graph>
         <div className='title-container'>
         <div className='title-main'>
         <h1>Unlock <span className="highlight">Unprecedented</span> Design <span className="highlight-2">Efficiency</span></h1>
