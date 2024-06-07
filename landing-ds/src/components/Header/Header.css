@@ -11,6 +11,7 @@
     padding-top: 1%;
     padding-bottom: 1%;
     color: white;
+    backdrop-filter: blur(12px);
   }
   
   .logoimg{
