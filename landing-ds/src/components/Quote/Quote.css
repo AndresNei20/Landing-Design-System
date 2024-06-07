@@ -5,10 +5,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 10% 20% 10% 20%;
   }
   
   .h3-quote {
@@ -24,7 +21,7 @@
 
   .design-system {
     color: rgb(255, 37, 219);
-    animation: colorChange 10s infinite alternate;
+    animation: colorChange 5s infinite alternate;
 }
 
 @keyframes colorChange {
