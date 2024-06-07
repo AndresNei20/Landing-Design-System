@@ -7,7 +7,7 @@ export const Values = ({}) => {
   
   return (
     <>
-    <div className='value-section-container'>
+    <div className='value-section-container' id='values'>
       <h2>Empowering Success: Discover Our Core Values</h2>
     </div>
     <div className='values-wrap'>

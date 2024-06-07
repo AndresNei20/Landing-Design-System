@@ -4,7 +4,7 @@ import './Linked.css';
 
 export const Linked = () => {
     return (
-        <div className='try-it-section'>
+        <div className='try-it-section' id='access'>
         <div className='text-buttons-container'>
             <div className='linked-title-container'>
                 <h2>Try it Yourself for FREE</h2>

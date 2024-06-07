@@ -5,7 +5,7 @@ import './HowItWorks.css';
 export const HowItWorks = () => {
     return (
 
-        <div className='howitworks-container'>
+        <div className='howitworks-container' id='how-it-works'>
             <h2>How it Works?</h2>
             <div className='steps-wrap'>
                 <Steps step="1" description="Open the Google Drive link and donwload the necessary sources (typographies, images, etc)"></Steps>

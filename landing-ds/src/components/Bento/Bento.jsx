@@ -15,7 +15,7 @@ export const Bento = () => {
 
   return (
     <>
-      <div className='title-bento'>
+      <div className='title-bento' id='modes'>
         <h2>Discover What's Inside</h2>
         {/* Toggle switch */}
         <label className="switch">

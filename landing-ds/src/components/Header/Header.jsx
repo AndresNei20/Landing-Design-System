@@ -2,6 +2,12 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => {
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    section.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <header className="header">
         
@@ -11,10 +17,10 @@ const Header = () => {
         </div>
       <nav>
         <ul>
-          <li><a href="#overview">Overview</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#modes">Modes</a></li>
-          <li><a href="#access">Access</a></li>
+          <li><a  onClick={() => scrollToSection('overview')}>Overview</a></li>
+          <li><a  onClick={() => scrollToSection('features')}>Features</a></li>
+          <li><a  onClick={() => scrollToSection('modes')}>Modes</a></li>
+          <li><a  onClick={() => scrollToSection('access')}>Access</a></li>
         </ul>
       </nav>
     </header>

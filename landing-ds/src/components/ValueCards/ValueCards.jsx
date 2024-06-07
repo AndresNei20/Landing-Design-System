@@ -11,7 +11,7 @@ export const ValueCards = () => {
  
   return (
     <>
-    <div className='v-cards-wrap'>
+    <div className='v-cards-wrap' id='features'>
       <ValueCard title="Target Audience" benefit="Tailored for Your Needs" img="https://i.postimg.cc/kB4tJz0q/target.png" hoverIcon="https://i.postimg.cc/MXtQ8qr9/targethover.png" text="Maximize engagement with designs specifically crafted for your audience's preferences"></ValueCard>
       <ValueCard title="Design Tokens" benefit="Consistent & Efficient" img="https://i.postimg.cc/Ny1KCcH7/Tokens-1.png" hoverIcon="https://i.postimg.cc/JDMG923w/Tokens.png" text="Achieve design consistency and streamline your workflow with reusable design tokens"></ValueCard>
       <ValueCard title="Dark Mode" benefit="Modern & Eye-Friendly" img="https://i.postimg.cc/BXktq65B/Moon-1.png" hoverIcon="https://i.postimg.cc/svvvdSW2/Moon.png" text="Enhance user experience with an attractive, eye-friendly dark mode"></ValueCard>

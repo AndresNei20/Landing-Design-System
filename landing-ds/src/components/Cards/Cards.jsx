@@ -28,10 +28,25 @@ export const Cards = () => {
   }, []);
 
   return (
-    <div className='cards-container'>
-      <Card img="https://i.ibb.co/THKMqLj/icons1.png" hoverImg="https://i.ibb.co/1bqrXZy/icons1-2.png" text="Our Values" description="Join us and benefit from our commitment to these principles, driving your success and satisfaction" />
-      <Card img="https://i.ibb.co/rmpBxLQ/icons2-2.png" hoverImg="https://i.ibb.co/MZSfgyp/icons2.png" link="https://www.figma.com/community/file/1378996455693948754/daviplata-ui-kit" text="Avaible on Figma" description="Inspired by the renowned Daviplata digital wallet, crafted to elevate your user experience and drive innovation." />
-      <Card img="https://i.postimg.cc/Jz7F3t12/iconscard3.png" hoverImg="https://i.postimg.cc/YCXsdk0q/iconcard3-hover.png" text="Easy to Use" description="Unlock the potential of your design effortlessly, enhancing your creative vision with just a few clicks" />
+    <div className='cards-container' id='overview'>
+      <Card 
+        img="https://i.ibb.co/THKMqLj/icons1.png" 
+        hoverImg="https://i.ibb.co/1bqrXZy/icons1-2.png" 
+        link="values" 
+        text="Our Values" 
+        description="Join us and benefit from our commitment to these principles, driving your success and satisfaction" />
+      <Card 
+        img="https://i.ibb.co/rmpBxLQ/icons2-2.png" 
+        hoverImg="https://i.ibb.co/MZSfgyp/icons2.png" 
+        link="https://www.figma.com/community/file/1378996455693948754/daviplata-ui-kit" 
+        text="Avaible on Figma" 
+        description="Inspired by the renowned Daviplata digital wallet, crafted to elevate your user experience and drive innovation." />
+      <Card 
+        img="https://i.postimg.cc/Jz7F3t12/iconscard3.png" 
+        hoverImg="https://i.postimg.cc/YCXsdk0q/iconcard3-hover.png" 
+        link="how-it-works" 
+        text="Easy to Use" 
+        description="Unlock the potential of your design effortlessly, enhancing your creative vision with just a few clicks" />
     </div>
   );
 };
