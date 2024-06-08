@@ -5,7 +5,7 @@ export const ButtonLink = ({ icon, text, hoverIcon, link }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleClick = () => {
-        window.location.href = link;
+        window.open(link, '_blank');
     };
 
     return (
