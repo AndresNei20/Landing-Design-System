@@ -24,7 +24,7 @@ export const Quote = () => {
   return (
     <div className='quote-div'>
       <h3 className='h3-quote'>
-        Take Your Figma Projects to the Next Level with this <span className="design-system">Design System</span>
+        Take Your Figma Projects to the Next Level with Daviplata Brand New <span className="design-system">Design System</span>
       </h3>
     </div>
   );
