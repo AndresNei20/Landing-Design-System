@@ -42,8 +42,8 @@ export const Cards = () => {
         text="Avaible on Figma" 
         description="Inspired by the renowned Daviplata digital wallet, crafted to elevate your user experience and drive innovation." />
       <Card 
-        img="https://i.postimg.cc/Jz7F3t12/iconscard3.png" 
-        hoverImg="https://i.postimg.cc/YCXsdk0q/iconcard3-hover.png" 
+        img="https://i.postimg.cc/4xfhQYDd/icons3-2.png" 
+        hoverImg="https://i.postimg.cc/rFCr41Y3/Hoveicons3-2.png" 
         link="how-it-works" 
         text="Easy to Use" 
         description="Unlock the potential of your design effortlessly, enhancing your creative vision with just a few clicks" />
